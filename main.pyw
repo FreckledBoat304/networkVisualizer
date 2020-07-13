@@ -2,7 +2,6 @@ import subprocess;
 import tkinter;
 import os;
 import threading;
-
 def getNetworkInformation(pingMeter, canvas):
 
     global running;
