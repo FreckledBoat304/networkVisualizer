@@ -55,9 +55,9 @@ def main():
 
     global running;
     running = True;
-    
+
     root = tkinter.Tk();
-    root.wm_iconbitmap("icon.ico");
+    #root.wm_iconbitmap("icon.ico");
     root.config(bg = "#212121");
     root.title("Network Visualizer");
     root.geometry("800x800");
